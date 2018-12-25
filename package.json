@@ -1,6 +1,6 @@
 {
   "name": "braingames249",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "console brain games on javascript",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
@@ -24,6 +24,12 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.2.3"
-  }
+    "@babel/preset-env": "^7.2.3",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "readline-sync": "^1.4.9"
+  },
+  "dependencies": {}
 }
