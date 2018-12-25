@@ -1,10 +1,9 @@
 {
   "name": "braingames249",
   "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
+  "description": "console brain games on javascript",
   "bin": {
- "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js"
   },
   "files": [
     "dist"
@@ -14,6 +13,12 @@
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "javascript",
+    "braingames",
+    "console games",
+    "nodejs"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
