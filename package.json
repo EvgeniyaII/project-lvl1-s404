@@ -1,6 +1,6 @@
 {
   "name": "braingames249",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "console brain games on javascript",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
