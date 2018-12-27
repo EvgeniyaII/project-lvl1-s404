@@ -3,3 +3,4 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 <a href="https://travis-ci.org/EvgeniyaII/project-lvl1-s404.svg?branch=master"><img src="https://travis-ci.org/EvgeniyaII/project-lvl1-s404.svg?branch=master" /></a>
 
+<a href="https://asciinema.org/a/gI6BHLLCIHx8rG88IWFTFjOtt" target="_blank"><img src="https://asciinema.org/a/gI6BHLLCIHx8rG88IWFTFjOtt.svg" /></a>
