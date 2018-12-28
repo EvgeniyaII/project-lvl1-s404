@@ -5,3 +5,5 @@
 [![Build Status](https://travis-ci.com/EvgeniyaII/project-lvl1-s404.svg?branch=master)](https://travis-ci.com/EvgeniyaII/project-lvl1-s404)
 
 <a href="https://asciinema.org/a/gI6BHLLCIHx8rG88IWFTFjOtt" target="_blank"><img src="https://asciinema.org/a/gI6BHLLCIHx8rG88IWFTFjOtt.svg" /></a>
+
+<a href="https://asciinema.org/a/DRo17ZswmmLQ9D7tMZY8ojjIW" target="_blank"><img src="https://asciinema.org/a/DRo17ZswmmLQ9D7tMZY8ojjIW.svg" /></a>
