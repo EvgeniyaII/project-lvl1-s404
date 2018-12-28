@@ -1,4 +1,4 @@
-mport readlineSync from 'readline-sync';
+import readlineSync from 'readline-sync';
 
 const randomNum = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
@@ -7,7 +7,6 @@ const gameNumber = () => {
   return num;
 };
 
-console.log(gameNumberInt);
 const isEven = num => num % 2 === 0;
 const correctAnswer = isEven(gameNumber()) ? 'yes' : 'no';
 const task = 'Answer "yes" if number even otherwise answer "no".';
@@ -37,6 +36,4 @@ const game = (string, myAnswer) => {
 };
 game(task, correctAnswer);
 
-
-
-export default even;
+//export default even;
