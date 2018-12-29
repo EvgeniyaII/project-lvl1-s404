@@ -1,5 +1,5 @@
 import { cons } from 'hexlet-pairs';
-import { game } from '../gameConstructor';
+import game from '../gameConstructor';
 import getRandomNum from '../utils';
 
 const task = 'What is the result of the expression?';
@@ -14,20 +14,20 @@ const getRandomMathOperation = (arr) => {
 const operands = ['+', '-', '*'];
 
 const generateGameData = () => {
-  const firstRandomInt = getRandomNum(1, 10);
-  const secondRandomInt = getRandomNum(1, 10);
+  const firstInt = getRandomNum(1, 10);
+  const secondInt = getRandomNum(1, 10);
   const randomOperand = getRandomMathOperation(operands);
-  const question = (`${firstRandomInt} ${randomOperand} ${secondRandomInt}`);
+  const question = (`${firstInt} ${randomOperand} ${secondInt}`);
   let answer;
   switch (randomOperand) {
     case '+':
-      answer = firstRandomInt + secondRandomInt;
+      answer = firstInt + secondInt;
       break;
     case '-':
-      answer = firstRandomInt - secondRandomInt;
+      answer = firstInt - secondInt;
       break;
     default:
-      answer = firstRandomInt * secondRandomInt;
+      answer = firstInt * secondInt;
   }
 
   return cons(question, String(answer));

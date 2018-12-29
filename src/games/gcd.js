@@ -1,25 +1,24 @@
 import { cons } from 'hexlet-pairs';
-import { game } from '../gameConstructor';
+import game from '../gameConstructor';
 import getRandomNum from '../utils';
 
-const getGcdForTwoRandomNums = (firstInt, secondInt) => {
+const findGcd = (first, second) => {
   const getGcd = (int1, int2) => {
     if (int1 !== 0) {
       return getGcd(int2 % int1, int1);
     }
     return int2;
   };
-  if (firstInt > secondInt) {
-    return getGcd(firstInt, secondInt);
-  }
-  return getGcd(secondInt, firstInt);
+  const max = Math.max(first, second);
+  const min = Math.min(first, second);
+  return getGcd(max, min);
 };
 
 const generateGameData = () => {
-  const firstRandomInt = getRandomNum(1, 100);
-  const secondRandomInt = getRandomNum(1, 100);
-  const question = `${firstRandomInt} ${secondRandomInt}`;
-  const answer = getGcdForTwoRandomNums(firstRandomInt, secondRandomInt);
+  const firstInt = getRandomNum(1, 100);
+  const secondInt = getRandomNum(1, 100);
+  const question = `${firstInt} ${secondInt}`;
+  const answer = findGcd(firstInt, secondInt);
   return cons(question, String(answer));
 };
 
