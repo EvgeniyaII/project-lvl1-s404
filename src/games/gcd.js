@@ -5,11 +5,11 @@ const numAndAnswer = () => {
   const randomNums = [randomNum(1, 100), randomNum(1, 100)];
   const nums = `${randomNums[0]} ${randomNums[1]}`;
   const gcdForNums = (num1, num2) => {
-    const gcd = (x, y) => {
-      if (x !== 0) {
-        return gcd(y % x, x);
+    const gcd = (int1, int2) => {
+      if (int1 !== 0) {
+        return gcd(int2 % int1, int1);
       }
-      return y;
+      return int2;
     };
     if (num1 > num2) {
       return gcd(num1, num2);
