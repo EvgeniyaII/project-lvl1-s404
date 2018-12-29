@@ -13,7 +13,7 @@ export const randomOperands = (arr) => {
 export const game = (string, numAndAnswer) => {
   console.log('Welcome to the Brain Games!');
   console.log(string);
-  const userName = readlineSync.question('May I have your name?');
+  const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello,  ${userName}!`);
   const iter = (counter) => {
     const gameRounds = 3;
