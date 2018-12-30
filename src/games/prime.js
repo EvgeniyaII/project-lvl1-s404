@@ -6,11 +6,11 @@ const isPrime = (num) => {
   if (num === 2) {
     return true;
   }
-  if (num === 1 || num % 2 === 0) {
+  if (num === 1 || num <= 0 || num % 2 === 0) {
     return false;
   }
   const startDivider = 3;
-  for (let i = startDivider; i < num; i += 2) {
+  for (let i = startDivider; i <= num / 3; i += 2) {
     if (num % i === 0) {
       return false;
     }
