@@ -1,7 +1,6 @@
 import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
 
-
 const gameRounds = 3;
 
 export default (task, generateGameData) => {
